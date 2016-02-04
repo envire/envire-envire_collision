@@ -1,2 +1,5 @@
 rock_testsuite(test_suite suite.cpp
-   DEPS envire_collision)
+                          test_collision.cpp
+                          BoxCollision.cpp
+               HEADERS BoxCollisionTest.hpp
+               DEPS envire_collision)
