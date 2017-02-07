@@ -1,6 +1,6 @@
 #pragma once
 
-#include <base/Singleton.hpp>
+#include <base-logging/Singleton.hpp>
 #include <ode/collision.h>
 #include <boost/shared_ptr.hpp>
 
