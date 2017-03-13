@@ -3,11 +3,6 @@ envire_collision
 Collision interfaces for envire types
 
 
-
-License
--------
-dummy-license
-
 Installation
 ------------
 The easiest way to build and install this package is to use Rock's build system.
