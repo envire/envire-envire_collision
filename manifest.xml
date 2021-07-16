@@ -30,5 +30,5 @@
   <author>Sascha Arnold/sascha.arnold@dfki.de</author>
   <depend package="base/cmake" />
   <depend package="envire/envire_core" />
-  <depend package="simulation/ode" />
+  <depend package="simulation/ode-16" />
 </package>
