@@ -26,7 +26,7 @@
 
 #include <boost/test/unit_test.hpp>
 #include <iostream>
-#include <ode/collision.h>
+#include <ode/odeinit.h>
 #include <envire_core/items/Item.hpp>
 #include <envire_collision/Exceptions.hpp>
 
