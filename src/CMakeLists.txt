@@ -1,5 +1,8 @@
 find_package(Boost COMPONENTS system)
 
+set(THREADS_PREFER_PTHREAD_FLAG ON)
+find_package(Threads REQUIRED)
+
 rock_library(envire_collision
     SOURCES ODECollisionBase.cpp
     HEADERS Exceptions.hpp
@@ -7,4 +10,5 @@ rock_library(envire_collision
             ODECollisionHeader.hpp
             ODECollision.hpp
     DEPS_CMAKE Boost
-    DEPS_PKGCONFIG ode envire_core)
+    DEPS_PKGCONFIG ode envire_core
+    LIBS Threads::Threads)
