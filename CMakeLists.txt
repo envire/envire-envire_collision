@@ -5,4 +5,6 @@ project(envire_collision VERSION 0.1)
 find_package(Rock)
 set(ROCK_TEST_ENABLED ON)
 rock_init()
+
+find_package(Boost COMPONENTS system)
 rock_standard_layout()
