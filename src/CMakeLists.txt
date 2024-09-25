@@ -1,5 +1,3 @@
-find_package(Boost COMPONENTS system)
-
 set(THREADS_PREFER_PTHREAD_FLAG ON)
 find_package(Threads REQUIRED)
 
