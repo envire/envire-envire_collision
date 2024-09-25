@@ -6,5 +6,5 @@ find_package(Rock)
 set(ROCK_TEST_ENABLED ON)
 rock_init()
 
-find_package(Boost COMPONENTS system)
+find_package(Boost COMPONENTS system thread)
 rock_standard_layout()
